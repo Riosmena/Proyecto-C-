@@ -1,2 +1,4 @@
 # Proyecto-C-
-Este programa es un inventario del menú de una cafetería, en el cual el usuario podra consultar algún alimento o bebida, su precio, y el tamaño de este
+Este programa es un menú de distintas comidas de una cafetería, estos se separan en alimentos, bebidas y extras. En cada uno, el usuario es puede consultar que opciones de comidas contiene cada sección, también puede consultar su precio y su tamaño, el tamaño de los alimentos esta dividido entre grande, chico o mediano. El de las bebidas esta medido en mililitros. Y el de los extras esta medido en gramos.
+Este programa servirá como un borrador en donde el usuario es capaz de consultar que quiere consumir, para que al hacer una elección pueda proceder a la compra de estos. En este primer avance, el programa únicamente puede mostrar unas pocas opciones disponibles solo para consultarlas. En futuros, avances, se podrá tener mayor interacción entre el usuario y el programa, y se le añadirán nuevas comidas a cada sección.
+Este programa no sirve para realizar una compra real, únicamente es un borrador de un posible servicio futuro de una cafetería para sus clientes. 
