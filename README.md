@@ -1,10 +1,26 @@
 # Proyecto-C-
-Este programa es un menú de una cafetería, el cual se separa en alimentos, bebidas y extras. En cada uno, el usuario es puede consultar que opciones de comidas contiene cada sección, también puede consultar su precio y su tamaño, el tamaño de los alimentos esta dividido entre grande, chico o mediano. El de las bebidas esta medido en mililitros. Y el de los extras esta medido en gramos.
-Este programa servirá como un borrador en donde el usuario es capaz de consultar que quiere consumir, para que al hacer una elección pueda proceder a la compra de estos. En este primer avance, el programa únicamente puede mostrar unas pocas opciones disponibles solo para consultarlas. En futuros, avances, se podrá tener mayor interacción entre el usuario y el programa, y se le añadirán nuevas subclases, aplicando métodos de herencia y composición, también se le agregaran un mayor número de comidas a cada sección del menú.
-Este programa no sirve para realizar una compra real, únicamente es un borrador de un posible servicio futuro de una cafetería para sus clientes. 
-En este segundo avance, se implemento un díagrama de clases UML en el cual se dividen las subclases en lo que es alimentos, bebidas y extras. Y como clase principal estará lo que es la orden. En futuros avances esto implicará que el usuario pueda ingresar alguna comida que desee buscar y dependiendo de si está o no en el menú, continuara por analisar si la comida ingresada es un alimento, una bebida o un extra, finalmente mostrara esa comida con su respectivo precio y su tamaño.
-En este avance, la clase orden, NO esta implementada en el código, eso será implementado en futuros avances, a la vez que se modíficara el diagrama de clases respecto al avance y resultados del código final.
-Para este avance, se implemento un cíclo infinito en el cual el usuario puede ingresar entre alimentos, bebidas, extras o salir. En cada uno se añadieron nuevas comidas para cada uno con nuevos tamaños y precios. Y el programa seguirá dando opciones a elegir hasta que se eliga la opción número 4 en la cual el programa muestra un mensaje de despedida y se rompe el ciclo, concluyendo el programa.
-Este programa tiene implementado una condicional en la cual si el usuario ingresa un número diferente a los de las opciones disponibles, el ciclo continuara, mostrando un mensaje de error y se solicitará al usuario ingresar otra opción.
-En el tercer avance, he actualizado el diagrama UML de modo que sea más consistente, su sintaxis es la correcta, y es entendible. En el diagrama implemente el concepto de agregación para crear tres arreglos en los cuales se guardan los distintos tipos de alimentos para mostrarlos en la pantalla posteriormente. Pero para el codigo, el concepto de agregación aún no ha sido planteado como tal, pero ya tengo mis posibles ideas y soluciones para implementarlo en el siguiente avance. A diferencia de otros avances, en este no agregue nuevos alimentos a las secciones porque primero quise asegurarme que la nueva versión del programa funcionará correctamente con los alimentos del avance pasado. El programa funciona de la siguiente manera:
-El programa le da la bienvenida al usuario, el programa funciona a base de un ciclo while infinito el cual le presenta al usuario cuatro opciónes disponibles: 1. Alimentos, 2. Bebidas, 3. Extras y 4. Salir. Para que el programa muestre el catálogo de cada opción, a excepción del cuatro, el usuario únicamente debe ingresar el número de la opción que esta corresponda, una vez que el programa haya finalizado de mostrar el catálogo, vuelve a presentar las opciones disponibles. Cuando el usuario ingresa el número cuatro, el ciclo se rompe, mostrando un mensaje de despedida y se finaliza el programa. Si el usuario ingresa un número diferente del uno al cuatro, el programa muestra un mensaje de error, y vuelve a mostrar las opciones disponibles. Si el usuario ingresa un dato diferente a un número entero, el programa no  funcionará, echandolo a perder y el usuario debera reinciarlo.
+Este programa es una representación de el menú del día de una cafetería común, en la cual se van ordenando y registrando las ventas que se realizan en él. Gracias al uso de objetos, en este programa es posible navegar entre tres secciones distintas que ofrece la cafetería en un día cualquiera, la sección de alimentos, la sección de bebidas y la sección de extras. En cada uno de ellos es posible checar el precio de cada uno, y su cantidad medida en gramos, a excepción de las bebidas, medidas en mililitros. Pero en cada sección es posible consultar que tipo de comida es la que se ofrece, entre los alimentos, bebidas y extras.
+
+En este programa se hace una simulación de un cliente comprando unos productos que se ofrecen en el menú, el programa tiene la capacidad de guardar estos alimentos que el cliente compra, y acumular sus precios, para al final de programa, mostrar el precio final de todos los productos que se desean comprar.
+
+En previos avances, se habia implementado el uso del ciclo while True, para generar que el programa permitiera al usuario elegir los productos que el hubiera querido. Pero en este avance, el ciclo while fue eliminado, ya que se planeo lograr que el codigo implementara herencia y agregación, de modo que el uso del ciclo while True para fines interactivos quedará descartado hasta futuros proyectos.
+
+Correciones:
+
+Entregable 1: He modificado el readme, respecto al avance actual y funcionamiento actual del programa, este especifica más sus funciones y el límite de su funcionalidad. Pido revisión en la subcompetencia Estándares SICT0401A en la evidencia:
+"Cumplo con estándares en mi repositorio: tiene un readmen claro que explica el proyecto (para que sirve, para que no sirve, y como se usa), no tiene archivos basura o versiones pasadas.
+
+Entregable 2: He diseñado un nuevo UML claro, y congruente con el programa, este modelando los conceptos de herencia y agregación de forma correcta especificando los atributos de cada clase. Pido revisión en la subcompetencia SICT0302A en las evidencias:
+"Modelo un diagrama de clase útil para solucionar un problema utilizando UML."
+"Utilizo el concepto de herencia en el diagrama de clases de manera adecuada."
+
+Entregable 3: He modificado el código, en esta ocasión sí se implementan las nuevas clases señaladas en el UML, y también utiliza correctamente los conceptos de herencia y agragación, de modo que el programa funciona bien y logra cumplir su objetivo. Pido revisión en las subcompetencias SICT0302A en la evidencia:
+"Implemento las clases en c++ siguiendo el diseño del diagrama de clases en UML."
+Pido revisión en la subcompetencia SICT0303A en las evidencias:
+"Implemento herencia de manera correcta y util"
+"Implemento composición (o agregación) siguiendo mi diagrama de clases"
+"Implemento clases apegadas a requerimientos a partir de un modelo."
+Pido revisión en la subcompetencia SICT0401A en la evidencia:
+"Sigo estándares en todo mi código fuente: estilo, sangrías, comentarios, nombres, etc..."
+
+Muchas gracias
